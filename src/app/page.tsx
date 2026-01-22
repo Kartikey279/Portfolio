@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="max-w-[1600px] mx-auto min-h-screen grid grid-cols-1 lg:grid-cols-[300px_1fr] xl:grid-cols-[340px_1fr] gap-6 lg:gap-10 p-4 lg:p-8">
+    <div className="max-w-[1400px] mx-auto min-h-screen p-4 lg:p-8 lg:pl-28">
       <Sidebar />
       <main className="flex flex-col gap-6 lg:gap-8 pt-0">
         <HeroSection />

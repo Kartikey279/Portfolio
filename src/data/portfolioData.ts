@@ -3,12 +3,12 @@ export const portfolioData = {
         name: "Kartikey Pandey",
         title: "Data Engineering & Financial Systems Architect",
         bio: "I build production-grade data backbones that banks rely on for regulatory reporting and risk management. Specializing in Python, SQL, and Cloud Infrastructure (AWS/GCP) to turn messy data into governed, actionable assets.",
-        image: "https://ui-avatars.com/api/?name=Kartikey+Pandey&size=200&background=16439c&color=ffffff&bold=true",
+        image: "/1678783559966.jpg",
         resumeUrl: "#",
         social: {
-            github: "https://github.com/pandey-kartikey",
-            linkedin: "https://www.linkedin.com/in/pandey-kartikey/",
-            email: "mailto:kartikey.pandey@example.com",
+            github: "https://github.com/Kartikey279",
+            linkedin: "https://in.linkedin.com/in/pandey-kartikey",
+            email: "mailto:kartikey279@gmail.com",
         },
     },
 
