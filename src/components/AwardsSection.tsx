@@ -79,7 +79,7 @@ export default function AwardsSection() {
                                         <span>From: {award.from}</span>
                                         {award.date && (
                                             <>
-                                                <span className="text-gray-300">•</span>
+                                                <span className="text-slate-400">•</span>
                                                 <span>{award.date}</span>
                                             </>
                                         )}

@@ -238,7 +238,7 @@ export default function Sidebar() {
                                         <span
                                             className={`material-symbols-outlined text-[20px] transition-colors ${isActive
                                                 ? "text-[var(--color-primary)]"
-                                                : "text-slate-400 dark:text-slate-500 group-hover:text-[var(--color-primary)]"
+                                                : "text-slate-500 dark:text-slate-500 group-hover:text-[var(--color-primary)]"
                                                 }`}
                                         >
                                             {item.icon}
@@ -270,7 +270,7 @@ export default function Sidebar() {
                                 href={profile.social.github}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-slate-400 dark:text-slate-500 hover:text-[var(--color-text-primary)] transition-colors p-2 rounded-md hover:bg-[var(--color-surface-hover)]"
+                                className="text-slate-500 dark:text-slate-500 hover:text-[var(--color-text-primary)] transition-colors p-2 rounded-md hover:bg-[var(--color-surface-hover)]"
                                 title="GitHub"
                             >
                                 <GitHubIcon />
@@ -279,14 +279,14 @@ export default function Sidebar() {
                                 href={profile.social.linkedin}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-slate-400 dark:text-slate-500 hover:text-[#0077b5] transition-colors p-2 rounded-md hover:bg-[var(--color-surface-hover)]"
+                                className="text-slate-500 dark:text-slate-500 hover:text-[#0077b5] transition-colors p-2 rounded-md hover:bg-[var(--color-surface-hover)]"
                                 title="LinkedIn"
                             >
                                 <LinkedInIcon />
                             </a>
                             <a
                                 href={profile.social.email}
-                                className="text-slate-400 dark:text-slate-500 hover:text-red-500 transition-colors p-2 rounded-md hover:bg-[var(--color-surface-hover)]"
+                                className="text-slate-500 dark:text-slate-500 hover:text-red-500 transition-colors p-2 rounded-md hover:bg-[var(--color-surface-hover)]"
                                 title="Email"
                             >
                                 <EmailIcon />
@@ -296,7 +296,7 @@ export default function Sidebar() {
                         {/* Theme Toggle */}
                         <button
                             onClick={toggleTheme}
-                            className="flex items-center gap-2 text-slate-400 dark:text-slate-500 hover:text-[var(--color-primary)] transition-colors p-2 rounded-lg hover:bg-[var(--color-surface-hover)]"
+                            className="flex items-center gap-2 text-slate-500 dark:text-slate-500 hover:text-[var(--color-primary)] transition-colors p-2 rounded-lg hover:bg-[var(--color-surface-hover)]"
                             aria-label="Toggle theme"
                         >
                             <span className="material-symbols-outlined text-[20px]">

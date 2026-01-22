@@ -43,7 +43,7 @@ export default function SkillsSection() {
                     className="bg-[var(--color-surface)] p-5 rounded-lg border border-[var(--color-border)] paper-shadow h-full"
                 >
                     <div className="flex items-center gap-2 mb-4">
-                        <span className="material-symbols-outlined text-gray-400 text-[20px]">
+                        <span className="material-symbols-outlined text-slate-500 text-[20px]">
                             {skills.frontend.icon}
                         </span>
                         <h3 className="font-bold text-sm uppercase tracking-wider">
@@ -78,7 +78,7 @@ export default function SkillsSection() {
                     className="bg-[var(--color-surface)] p-5 rounded-lg border border-[var(--color-border)] paper-shadow h-full"
                 >
                     <div className="flex items-center gap-2 mb-4">
-                        <span className="material-symbols-outlined text-gray-400 text-[20px]">
+                        <span className="material-symbols-outlined text-slate-500 text-[20px]">
                             {skills.backend.icon}
                         </span>
                         <h3 className="font-bold text-sm uppercase tracking-wider">
@@ -113,7 +113,7 @@ export default function SkillsSection() {
                     className="md:col-span-2 xl:col-span-1 bg-[var(--color-surface)] p-5 rounded-lg border border-[var(--color-border)] paper-shadow h-full"
                 >
                     <div className="flex items-center gap-2 mb-4">
-                        <span className="material-symbols-outlined text-gray-400 text-[20px]">
+                        <span className="material-symbols-outlined text-slate-500 text-[20px]">
                             {skills.devops.icon}
                         </span>
                         <h3 className="font-bold text-sm uppercase tracking-wider">
